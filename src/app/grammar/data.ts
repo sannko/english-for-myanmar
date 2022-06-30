@@ -51,7 +51,32 @@ export class Data {
         "How long does it take ... ?", // 48
         "Do you know where ... ? I don't know what ... etc", //49
         "She said that ... He told me that ...", //50
-        
+        "work / working go / going do / doing", //51
+        "to ... (I want to do) and -ing (I enjoy doing)", //52
+        "I want to ... I told you to ...", //53
+        "I went to the shop to ...", //54
+        "go to ... go on .. go for ... go -ing", //55
+        "get", //56
+        "do and make", //57
+        "have", //58
+        "I / me he / him they / them etc.", //59
+        "my / his / their etc.", //60
+        "Whose is this? It's mine / yours / hers etc.", //61
+        "I / me / my / mine", //62
+        "myself / yourself / themselves etc.", //63
+        "-'s (kate's camera / my brother's car etc.)", //64
+        "a / an ...", //65
+        "train(s) bus(es) (singular and plural)", //66
+        "a bottle / some water (countable / uncountable 1)", //67
+        "a cake / some cake / some cakes (countable / uncountable 2)", //68
+        "a / an and the", //69
+        "the ...", //70
+        "go to work go home go to the cinema", //71
+        "I like music I hat exam", //72
+        "the ... (names of places)", //73
+        "this / that / these / those", //74
+        "one / ones", //75
+
 
 
 
