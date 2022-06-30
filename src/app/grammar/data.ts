@@ -26,7 +26,41 @@ export class Data {
         "be / have / do in present and past tenses", //23
         "Regular and irregular verbs", //24
         "What are you doing tomorrow?", //25
+        "I'm going to ...", //26
+        "will / shall 1", //27
+        "will / shall 2", //28
+        "might", //29
+        "can and could", //30
+        "must mustn't don't need to", //31
+        "should", //32
+        "I have to ...", //33
+        "Would you like ... ? I'd like ...", //34
+        "Do this! Don't do that! Let's do this!", //35
+        "I used to ...", //36
+        "there is there are", //37
+        "there was / were there has / have been there will be", //38
+        "It ...", //39
+        "I am, i don't etc.", //40
+        "Have you? Are you? Don't you? etc.", //41
+        "too / either so am I / neither do I etc.", //42
+        "isn't, haven't, don't, etc. (negatives)", //43
+        "is it ... ? have you ... ? do they ... ? etc. (questions 1)", //44
+        "Who saw you? Who did you see? (questions 2)", //45
+        "Who is talking to? What is it like? (questions 3)", //46
+        "What ...? Which ... ? How ... ? (questions 4)", //47
+        "How long does it take ... ?", // 48
+        "Do you know where ... ? I don't know what ... etc", //49
+        "She said that ... He told me that ...", //50
         
+
+
+
+
+
+
+
+
+
 
          
     ]
