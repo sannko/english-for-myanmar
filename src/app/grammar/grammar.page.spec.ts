@@ -2,19 +2,19 @@ import { ComponentFixture, TestBed, waitForAsync } from '@angular/core/testing';
 import { IonicModule } from '@ionic/angular';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { GrammerPage } from './grammer.page';
+import { GrammarPage } from './grammar.page';
 
 describe('Tab2Page', () => {
-  let component: GrammerPage;
-  let fixture: ComponentFixture<GrammerPage>;
+  let component: GrammarPage;
+  let fixture: ComponentFixture<GrammarPage>;
 
   beforeEach(waitForAsync(() => {
     TestBed.configureTestingModule({
-      declarations: [GrammerPage],
+      declarations: [GrammarPage],
       imports: [IonicModule.forRoot(), ExploreContainerComponentModule]
     }).compileComponents();
 
-    fixture = TestBed.createComponent(GrammerPage);
+    fixture = TestBed.createComponent(GrammarPage);
     component = fixture.componentInstance;
     fixture.detectChanges();
   }));

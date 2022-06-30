@@ -3,10 +3,10 @@ import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
-import { GrammerPage } from './grammer.page';
+import { GrammarPage } from './grammar.page';
 import { ExploreContainerComponentModule } from '../explore-container/explore-container.module';
 
-import { Tab2PageRoutingModule } from './grammer-routing.module';
+import { Tab2PageRoutingModule } from './grammar-routing.module';
 
 @NgModule({
   imports: [
@@ -16,6 +16,6 @@ import { Tab2PageRoutingModule } from './grammer-routing.module';
     ExploreContainerComponentModule,
     Tab2PageRoutingModule
   ],
-  declarations: [GrammerPage]
+  declarations: [GrammarPage]
 })
 export class Tab2PageModule {}

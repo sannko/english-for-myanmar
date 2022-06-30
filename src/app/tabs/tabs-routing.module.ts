@@ -13,7 +13,7 @@ const routes: Routes = [
       },
       {
         path: 'Grammar',
-        loadChildren: () => import('../grammer/grammer.module').then(m => m.Tab2PageModule)
+        loadChildren: () => import('../grammar/grammar.module').then(m => m.Tab2PageModule)
       },
       {
         path: 'Vocabulary',
