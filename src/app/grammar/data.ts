@@ -76,18 +76,46 @@ export class Data {
         "the ... (names of places)", //73
         "this / that / these / those", //74
         "one / ones", //75
-
-
-
-
-
-
-
-
-
-
-
-         
-    ]
+        "some and any", //76
+        "not + any no none", //77
+        "not + anybody / anyone / anything nobody / no-one / nothing", //78
+        "somebody / anything / nowhere etc.", //79
+        "every and all", //80
+        "all most some any no/none", //81
+        "both either neither", //82
+        "a lot much many", //83
+        "(a) little (a) few",  //84
+        "old/nice/interesting etc. (adjectives)", //85
+        "quickly/badly/suddenly etc. (adverbs)", //86
+        "old/older expensive/more expensive", //87
+        "older than... more expensive than...", //88
+        "not as...as", //89
+        "the oldest the most expensive", //90
+        "enough", //91
+        "too", //92
+        "He speaks English very well. (word order 1)", //93
+        "always/usually/ofter etc. (word order 2)", //94
+        "still yet already", //95
+        "Give me that book! Give it to me!", //96
+        "and but or so because", //97
+        "When...", //98
+        "If we go... If you see... etc.", //99
+        "If I had... If we went... etc.", //100
+        "a person who... a thing that/which... (relative clauses 1)", //101
+        "the person we met the hotel you stayed at (relative clauses 2)", //102
+        "at 8 o'click on Monday in April", //103
+        "from ... to until since for", //104
+        "before after during while", //105
+        "in at on (places 1)", //106
+        "in at on (places 2)", //107
+        "to in at (places 3)", //108
+        "under, behind, opposite etc.", //109
+        "up, over, through etc.", //110
+        "on at by with about", //111
+        "afraid of..., good at... etc. of/at/for etc. (prepositions) + ing", //112
+        "listen to..., look at... etc. (verb + preposition)", //113
+        "go in, fall off, run away etc. (phrasal verbs 1)", //114
+        "put on your shoes put your shoes on (phrasal verbs 2)" //115 
+    ];
 
 }
