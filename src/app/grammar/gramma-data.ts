@@ -1,4 +1,4 @@
-export class Data {
+export class GrammarData {
 
     courseContent = [
         {id:1, link:"", name:"am / is / are"}, // 1
@@ -19,7 +19,7 @@ export class Data {
         {id:16, link:"", name:"I've just ... I've already ... I haven't ... yet (present perfect 2)"}, //16
         {id:17, link:"", name:"Haver you ever ... ? (present perfect 3)"}, //17
         {id:18, link:"", name:"How long have you ... ? (present perfect 4)"}, //18
-        {id:19, link:"", name:"for since ago", //19
+        {id:19, link:"", name:"for since ago"}, //19
         {id:20, link:"", name:"I have done(present perfect) and I did (past)"}, //20
         {id:21, link:"", name:"is done was done (passive 1)"}, //21
         {id:22, link:"", name:"is being done has been done (passive 2)"}, //22
