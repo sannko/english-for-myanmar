@@ -6,7 +6,11 @@ const routes: Routes = [
   {
     path: '',
     component: GrammarPage,
+  },  {
+    path: 'courseview',
+    loadChildren: () => import('./courseview/courseview.module').then( m => m.CourseviewPageModule)
   }
+
 ];
 
 @NgModule({

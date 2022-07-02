@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { MultiService } from 'app/multi.service';
 import { GrammarData } from './gramma-data';
  
 @Component({
@@ -10,6 +11,10 @@ export class GrammarPage {
 
   grammarData = new GrammarData()
 
-  constructor() {}
+  constructor(public multiService: MultiService) {}
+
+
+ 
+
 
 }
