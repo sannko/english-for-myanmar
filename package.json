@@ -28,6 +28,7 @@
     "@capacitor/status-bar": "1.0.8",
     "@ionic/angular": "^6.1.9",
     "@ionic/cli": "^6.20.1",
+    "angular-disable-browser-back-button": "^1.0.2",
     "cordova-admob": "^5.1.0",
     "rxjs": "~6.6.0",
     "tslib": "^2.2.0",

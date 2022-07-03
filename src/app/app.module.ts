@@ -3,13 +3,18 @@ import { BrowserModule } from '@angular/platform-browser';
 import { RouteReuseStrategy } from '@angular/router';
 
 import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
+import { BackButtonDisableModule } from 'angular-disable-browser-back-button';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { ImageViewComponent } from './image-view/image-view.component';
 
 @NgModule({
-  declarations: [AppComponent],
-  imports: [BrowserModule, IonicModule.forRoot(), AppRoutingModule],
+  declarations: [AppComponent, ImageViewComponent],
+  imports: [BrowserModule, IonicModule.forRoot(),
+    BackButtonDisableModule.forRoot({
+      preserveScrollPosition: true
+    }), AppRoutingModule],
   providers: [{ provide: RouteReuseStrategy, useClass: IonicRouteStrategy }],
   bootstrap: [AppComponent],
 })

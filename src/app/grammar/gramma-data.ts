@@ -5,7 +5,7 @@ export class GrammarData {
             id: 1, link: "https://player.vimeo.com/video/720188889",
             name: "am / is / are",
             questionImage: "https://static.ecoach.com/uploads/unit/217596/tile/3485427/6643c1c47e100a52d290beeeb7c7c9902b5d68ee.jpeg",
-            answerImage: "https://static.ecoach.com/uploads/unit/217596/tile/3485427/6643c1c47e100a52d290beeeb7c7c9902b5d68ee.jpeg"
+            answerImage: "https://static.ecoach.com/uploads/unit/217596/tile/3485427/a146ca5c40c3e5cfb6675616261313b35d1cd4c5.jpeg"
         }, // 1
 
         {

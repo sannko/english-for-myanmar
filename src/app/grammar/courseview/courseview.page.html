@@ -17,10 +17,12 @@
 
     <ion-row class="ion-padding">
       <ion-col>
-        <ion-img [src]="getData.questionImage"></ion-img>
+        <ion-title>Question</ion-title>
+        <ion-img [src]="getData.questionImage" (click)="multiService.imageView(getData.questionImage, 'Question')"></ion-img>
       </ion-col>
       <ion-col>
-        <ion-img [src]="getData.answerImage"></ion-img>
+        <ion-title>Answer</ion-title>
+        <ion-img [src]="getData.answerImage" (click)="multiService.imageView(getData.answerImage, 'Answer')"></ion-img>
       </ion-col>
     </ion-row>
 

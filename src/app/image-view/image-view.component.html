@@ -1,0 +1,20 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title class="ion-marging-start">
+      {{props.name}}
+    </ion-title>
+    <ion-icon slot="end" size="large" name="close" (click)="multiService.closeModal()"></ion-icon>
+  </ion-toolbar>
+ </ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-img *ngIf="props && props.url" [src]="props.url" style="width:auto; height: auto;">
+
+        </ion-img>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
