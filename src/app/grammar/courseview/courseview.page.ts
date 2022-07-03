@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GrammarData } from '../gramma-data';
+import { DomSanitizer } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-courseview',
@@ -11,14 +12,16 @@ export class CourseviewPage implements OnInit {
 
   grammarData = new GrammarData()
 
-  constructor(private activatedRoute: ActivatedRoute) {
+  getData: {id: number, link: string, name: string, questionImage: string, answerImage: string};
+  constructor(private activatedRoute: ActivatedRoute,
+    private sanitizer: DomSanitizer) {
 
       activatedRoute.queryParams.subscribe(s => {
         console.log(s.id)
 
-       let getData = this.grammarData.courseContent.filter(f => f.id == s.id)
+       this.getData = this.grammarData.courseContent.filter(f => f.id == s.id)[0]
 
-       console.log(getData)
+       console.log(this.getData)
 
       })
 
@@ -26,5 +29,10 @@ export class CourseviewPage implements OnInit {
 
   ngOnInit() {
   }
+
+  videoUrl(url) {
+    return this.sanitizer.bypassSecurityTrustResourceUrl(url);
+  }
+ 
 
 }
