@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ActivatedRoute } from '@angular/router';
+import { GrammarData } from '../gramma-data';
 
 @Component({
   selector: 'app-courseview',
@@ -7,7 +9,20 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CourseviewPage implements OnInit {
 
-  constructor() { }
+  grammarData = new GrammarData()
+
+  constructor(private activatedRoute: ActivatedRoute) {
+
+      activatedRoute.queryParams.subscribe(s => {
+        console.log(s.id)
+
+       let getData = this.grammarData.courseContent.filter(f => f.id == s.id)
+
+       console.log(getData)
+
+      })
+
+   }
 
   ngOnInit() {
   }

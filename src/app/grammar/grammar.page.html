@@ -20,8 +20,10 @@
     <ion-col size="12" size-sm>
       <ion-list>
         <ion-item *ngFor="let data of grammarData.courseContent" detail 
-        (click)="multiService.routerMethod('/courseview')">
-          <ion-label  [innerText]="data.name"></ion-label>
+        (click)="multiService.routerMethod('/courseview', data)">
+          <ion-label>
+            <strong>{{'Unit ' +  data.id + ' - ' + data.name}}</strong>
+          </ion-label>
         </ion-item>
       </ion-list>
     </ion-col>
