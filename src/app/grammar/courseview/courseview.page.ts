@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { ActivatedRoute } from '@angular/router';
 import { GrammarData } from '../gramma-data';
 import { DomSanitizer } from '@angular/platform-browser';
@@ -11,26 +11,23 @@ import { MultiService } from 'app/multi.service';
 })
 export class CourseviewPage  {
 
-  grammarData = new GrammarData()
+  grammarData = new GrammarData();
 
-  getData: {id: number, link: string, name: string, questionImage: string, answerImage: string};
+  getData: {id: number; link: string; name: string; questionImage: string; answerImage: string};
   constructor(private activatedRoute: ActivatedRoute,
-    private sanitizer: DomSanitizer,private multiService: MultiService) {
+    private sanitizer: DomSanitizer,public multiService: MultiService) {
 
       activatedRoute.queryParams.subscribe(s => {
- 
-       this.getData = this.grammarData.courseContent.filter(f => f.id == s.id)[0]
-
- 
-      })
+       this.getData = this.grammarData.courseContent.filter(f => f.id.toString() === s.id)[0];
+      });
 
    }
 
-  
+
 
   videoUrl(url) {
     return this.sanitizer.bypassSecurityTrustResourceUrl(url);
   }
- 
+
 
 }
